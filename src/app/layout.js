@@ -22,6 +22,40 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="bg-white/80 backdrop-blur sticky top-0 z-10">
+          <div className="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
+            <a href="#" className="font-bold text-orange-600">
+              Rolling Bites
+            </a>
+            <ul className="flex space-x-4">
+              <li>
+                <a href="#about" className="hover:text-orange-600">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#menu" className="hover:text-orange-600">
+                  Menu
+                </a>
+              </li>
+              <li>
+                <a href="#locations" className="hover:text-orange-600">
+                  Locations
+                </a>
+              </li>
+              <li>
+                <a href="#events" className="hover:text-orange-600">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:text-orange-600">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
         {children}
       </body>
     </html>
