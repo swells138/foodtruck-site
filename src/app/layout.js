@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,34 +25,34 @@ export default function RootLayout({ children }) {
       >
         <nav className="bg-white/80 backdrop-blur sticky top-0 z-10">
           <div className="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
-            <a href="#" className="font-bold text-orange-600">
+            <Link href="/" className="font-bold text-orange-600">
               Rolling Bites
-            </a>
+            </Link>
             <ul className="flex space-x-4">
               <li>
-                <a href="#about" className="hover:text-orange-600">
+                <Link href="/about" className="hover:text-orange-600">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#menu" className="hover:text-orange-600">
+                <Link href="/menu" className="hover:text-orange-600">
                   Menu
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#locations" className="hover:text-orange-600">
+                <Link href="/locations" className="hover:text-orange-600">
                   Locations
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#events" className="hover:text-orange-600">
+                <Link href="/events" className="hover:text-orange-600">
                   Events
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="hover:text-orange-600">
+                <Link href="/contact" className="hover:text-orange-600">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
