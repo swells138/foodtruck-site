@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="max-w-3xl mx-auto text-center space-y-4">
+      <section id="about" className="max-w-3xl mx-auto text-center space-y-4">
         <h2 className="text-3xl font-bold text-orange-500">Our Story</h2>
         <p>
           We started with a dream to serve mouthwatering street eats across the city.
@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       {/* Menu Section */}
-      <section className="max-w-5xl mx-auto">
+      <section id="menu" className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-orange-500 mb-8">Menu Favorites</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {[
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* Schedule Section */}
-      <section className="max-w-3xl mx-auto text-center space-y-6">
+      <section id="locations" className="max-w-3xl mx-auto text-center space-y-6">
         <h2 className="text-3xl font-bold text-orange-500">Where to Find Us</h2>
         <ul className="space-y-2">
           <li>Monday – Downtown Square</li>
@@ -54,8 +54,16 @@ export default function Home() {
         </ul>
       </section>
 
+      {/* Events Section */}
+      <section id="events" className="max-w-3xl mx-auto text-center space-y-6">
+        <h2 className="text-3xl font-bold text-orange-500">Events</h2>
+        <p>
+          Catch us at local festivals and community gatherings all season long!
+        </p>
+      </section>
+
       {/* Contact Section */}
-      <section className="max-w-md mx-auto space-y-6 text-center">
+      <section id="contact" className="max-w-md mx-auto space-y-6 text-center">
         <h2 className="text-3xl font-bold text-orange-500">Book Us</h2>
         <p>Looking to spice up your event? Reach out for catering or private bookings!</p>
         <a
