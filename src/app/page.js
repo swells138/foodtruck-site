@@ -10,7 +10,7 @@ export default function Home() {
           Fresh flavors on wheels. Catch us around town!
         </p>
         <Image
-          src="https://sdmntpreastus.oaiusercontent.com/files/00000000-0398-61f9-9b7b-1d624365da58/raw?se=2025-07-23T14%3A36%3A47Z&sp=r&sv=2024-08-04&sr=b&scid=002c19ce-e642-5f2a-9570-b6078b9bc6e1&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T13%3A10%3A29Z&ske=2025-07-24T13%3A10%3A29Z&sks=b&skv=2024-08-04&sig=86APmVJruGTWfbEs2ffnTikkTFZjy6HWwajRkZ1jJ70%3D"
+          src="/images/truck.png"
           alt="Food Truck Hero"
           width={800}
           height={400}
