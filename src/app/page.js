@@ -13,7 +13,7 @@ export default function Home() {
           className="w-full h-auto object-cover rounded-b-[4rem]"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 py-20 bg-black/40">
-          <h1 className="text-5xl md:text-6xl font-serif font-black">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-serif font-black">
             <span className="text-white">Food Truck Catering in Avon </span>
             <span className="text-orange-600">Savor Delicious Flavors on Wheels</span>
           </h1>
