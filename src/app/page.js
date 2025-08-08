@@ -6,10 +6,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative">
         <Image
-          src="https://images.unsplash.com/photo-1601924582970-7a665b4598ae?q=80&w=1350&auto=format&fit=crop"
+          src="/images/food1.png"
           alt="Fresh pizza being served"
-          width={1600}
-          height={800}
+          width={1536}
+          height={1024}
           className="w-full h-auto object-cover rounded-b-[4rem]"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 py-20 bg-black/40">
@@ -95,7 +95,7 @@ export default function Home() {
       <section className="py-16 text-center">
         <p className="text-xl font-serif font-bold">
           Savor the experience, savor the memories – savor
-          <span className="text-orange-600"> Nelly Belly</span>.
+          <span className="text-orange-600"> Food Truck</span>.
         </p>
       </section>
     </main>

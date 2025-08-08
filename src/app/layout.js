@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -18,7 +19,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Nelly Belly – Woodfired Pizza & Piadina",
+  title: "Food Truck – Woodfired Pizza & Piadina",
   description: "Food Truck Catering in Avon",
 };
 
@@ -30,8 +31,18 @@ export default function RootLayout({ children }) {
       >
         <nav className="bg-black text-white sticky top-0 z-10 shadow">
           <div className="max-w-5xl mx-auto flex items-center justify-between px-4 py-3">
-            <Link href="/" className="font-bold font-serif">
-              Nelly Belly
+            <Link
+              href="/"
+              className="flex items-center space-x-2 font-bold font-serif"
+            >
+              <Image
+                src="/images/truck.png"
+                alt="Food Truck logo"
+                width={32}
+                height={32}
+                className="rounded-full"
+              />
+              <span>Food Truck</span>
             </Link>
             <ul className="flex space-x-4">
               <li>
@@ -66,11 +77,15 @@ export default function RootLayout({ children }) {
         <footer className="bg-black text-white py-10 mt-16">
           <div className="max-w-5xl mx-auto flex flex-col items-center space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center">
-                <span className="text-2xl">🔥</span>
-              </div>
+              <Image
+                src="/images/truck.png"
+                alt="Food Truck logo"
+                width={48}
+                height={48}
+                className="rounded-full"
+              />
               <span className="font-serif text-lg">
-                Nelly Belly – Woodfired Pizza &amp; Piadina
+                Food Truck – Woodfired Pizza &amp; Piadina
               </span>
             </div>
             <div className="font-bold">
