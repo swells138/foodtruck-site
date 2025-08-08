@@ -66,6 +66,11 @@ export default function RootLayout({ children }) {
                 </a>
               </li>
               <li>
+                <a href="#mailing-list" className="hover:text-orange-500">
+                  Mailing List
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:text-orange-500">
                   Contact
                 </a>

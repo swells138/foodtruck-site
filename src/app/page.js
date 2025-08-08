@@ -144,22 +144,22 @@ export default function Home() {
           <input
             type="text"
             placeholder="First Name"
-            className="w-full p-2 rounded-md text-black"
+            className="w-full p-2 rounded-md bg-white text-black placeholder-black"
           />
           <input
             type="text"
             placeholder="Last Name"
-            className="w-full p-2 rounded-md text-black"
+            className="w-full p-2 rounded-md bg-white text-black placeholder-black"
           />
           <input
             type="email"
             placeholder="Email"
-            className="w-full p-2 rounded-md text-black"
+            className="w-full p-2 rounded-md bg-white text-black placeholder-black"
           />
           <input
             type="email"
             placeholder="Confirm Email"
-            className="w-full p-2 rounded-md text-black"
+            className="w-full p-2 rounded-md bg-white text-black placeholder-black"
           />
           <button
             type="submit"
