@@ -46,29 +46,29 @@ export default function RootLayout({ children }) {
             </Link>
             <ul className="flex space-x-4">
               <li>
-                <Link href="/about" className="hover:text-orange-500">
+                <a href="#about" className="hover:text-orange-500">
                   About
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/menu" className="hover:text-orange-500">
+                <a href="#menu" className="hover:text-orange-500">
                   Menu
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/locations" className="hover:text-orange-500">
+                <a href="#locations" className="hover:text-orange-500">
                   Locations
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/events" className="hover:text-orange-500">
+                <a href="#events" className="hover:text-orange-500">
                   Events
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-orange-500">
+                <a href="#contact" className="hover:text-orange-500">
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
